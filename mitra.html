@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/591c9f7b54.js" crossorigin="anonymous"></script>
+
+    <title>SILOKERNF</title>
+  </head>
+  <body>
+     <!--Navbar search + login -->
+     <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+        <a class="navbar-brand" href="index.html"><i class="fas fa-briefcase"></i> SILOKERNF</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lowongan.html">Lowongan Baru</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="isiloker.html">Isi Loker</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="mitra.html">Daftar Mitra</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="berita.html">Berita</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#exampleModal" data-whatever="Login">Login</button>
+          </form>
+        </div>
+      </div>
+      </nav>
+       <!--Form Modal-->
+       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label">Username</label>
+                  <input type="text" class="form-control" id="user">
+                </div>
+                <div class="form-group">
+                  <label for="message-text" class="col-form-label">Password</label>
+                  <input type="password" class="form-control" id="pass">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" onclick="login()" data-dismiss="modal">Login</button>
+              <button type="button" class="btn btn-primary">SingUp</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- jumbotron -->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4 text-center" >Mitra Perusahaan Kami</h1>
+          <br>
+          <p class="text-center"><a href="isi_mitra.html"><button class="btn btn-primary">Daftar Menjadi Mitra</button></a></p>
+        </div>
+      </div>
+     </header>
+     <!-- content  -->
+     <main>
+         <div class="container"> 
+            <nav aria-label="breadcrumb ">  
+                <ol class="breadcrumb bg-white d-flex justify-content-end">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Daftar Mitra</li>
+                </ol> 
+         </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <h3>Gojek</h3>
+                            <img src="gojek.png" class="rounded mx-auto d-block" width="200px">
+                            <p>Kami percaya bahwa dengan Gojek, dan dengan inovasi teknologi yang berkelanjutan, Selalu Ada Cara untuk menyelesaikan masalah sehari-hari dan mempengaruhi dampak sosial yang
+                              positif. <br> Kunjungi website kami <a href="https://www.gojek.com/about/">www.gojek.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <h3>Tesla</h3>
+                            <img src="tesla.png" class="rounded mx-auto d-block" width="200px">
+                            <p>Tesla tidak hanya membangun kendaraan semua-listrik tetapi juga pembangkit energi bersih dan produk penyimpanan yang dapat diskalakan tanpa batas. Tesla percaya semakin cepat dunia berhenti mengandalkan bahan bakar fosil dan bergerak menuju masa depan nol-emisi, semakin baik. <br><a href="https://www.tesla.com/">www.tesla.com</a> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <h3>Tokopedia</h3>
+                            <img src="tokopedia.png" class="rounded mx-auto d-block" width="200px">
+                            <p>Teknologi memfasilitasi,bukan menghalangi perkembangan. Kami memperluas bisnis kami dengan berkaloborasi bersama mitra kami untuk berkontribusi terhadap kemajuan teknologi bagi penerapan di dunia nyata <br>Kunjungi website kami <a href="https://www.tokopedia.com/about/innovation">www.tokopedia.com</a> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </main>
+     <!-- footer -->
+    <footer class="bg-secondary text-white">
+        <div class="container">
+          <div class="row pt-3">
+              <div class="col">
+                  <p>Develop By Mahasiswa STT-NF @2021</p>
+              </div>
+          </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+    <script>
+        function login(){
+           
+          let user = document.getElementById("user");
+          let pass = document.getElementById("pass");
+  
+          console.log("user :" + user.value);
+          console.log("pass :" + pass.value);
+          if(user.value=="admin" && pass.value=="admin123"){
+              alert("anda login");
+              window.location = "admin.html";
+          }else{
+              alert("Username atau Password salah");
+          }
+        }
+    </script>
+  </body>
+</html>

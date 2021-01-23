@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/591c9f7b54.js" crossorigin="anonymous"></script>
+
+    <title>SILOKERNF</title>
+  </head>
+  <body>
+     <!--Navbar search + login -->
+     <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+        <a class="navbar-brand" href="index.html"><i class="fas fa-briefcase"></i> SILOKERNF</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lowongan.html">Lowongan Baru<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="isiloker.html">Isi Loker</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mitra.html">Daftar Mitra</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="berita.html">Berita</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#exampleModal" data-whatever="Login">Login</button>
+          </form>
+        </div>
+      </div>
+      </nav>
+       <!--Form Modal-->
+       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label">Username</label>
+                  <input type="text" class="form-control" id="user">
+                </div>
+                <div class="form-group">
+                  <label for="message-text" class="col-form-label">Password</label>
+                  <input type="password" class="form-control" id="pass">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" onclick="login()" data-dismiss="modal">Login</button>
+              <button type="button" class="btn btn-primary">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </nav>
+     </header>
+    <main>
+    <div class="container">
+    <!-- breadcum     -->
+    <nav aria-label="breadcrumb ">
+    <ol class="breadcrumb bg-white d-flex justify-content-end">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Berita</li>
+    </ol>
+    </div>
+    <main>
+    <!-- news -->
+    <div class="container mb-5">
+        <div class="col-md-12">
+            <div class="card bg-light">
+                <div class="card-body">
+                    <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">5 Nilai Leadership yang Dapat Dipetik dari Pandemi</h5>
+                              <p class="card-text">Bergantinya tahun dari 2020 ke 2021 nyatanya tidak serta merta membasmi pandemi virus COVID-19 yang mulai mewabah di awal tahun 2020. Malah, bergantinya tahun dan liburan akhir tahun 2020 membuat penularan virus semakin masif.</p>
+                              <a href="berita1.html" class="btn btn-primary">Baca Berita</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://asset.kompas.com/crops/a5XaU7Yj6GqmVnxvXUp1bVhnBj4=/0x0:0x0/750x500/data/photo/2020/01/17/5e211bf104860.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">6 Sifat untuk Jadi Pemimpin Terbaik di Situasi Sulit</h5>
+                              <p class="card-text">Siapa sangka tahun 2020 menjadi tahun yang cukup buruk untuk memulai sebuah dekade yang baru? Tahun 2020 benar-benar menguji manusia untuk bertahan, beradaptasi dengan cepat, dan bersabar dalam menghadapi segala tantangan dan kesulitan yang menghadang.</p>
+                              <a href="berita2.html" class="btn btn-primary">Baca Berita</a>
+                            </div>
+                          </div>   
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://asset.kompas.com/crops/pbiBGR2k-8Al9coLUxpfR1GiahQ=/0x0:1000x667/750x500/data/photo/2018/05/28/2626458723.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">5 Cara Jaga Internal Branding di Tengah Pandemi</h5>
+                              <p class="card-text">Setelah setahun lebih, dunia beserta isinya berkutat dan berjuang untuk terbebas dan mengatasi pandemi virus COVID-19, nyatanya hingga awal tahun 2021 ini, pandemi belum juga bisa berakhir atau setidaknya, teratasi.</p>
+                              <a href="berita3.html" class="btn btn-primary">Baca Berita</a>
+                            </div>
+                          </div>  
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://asset.kompas.com/crops/vn1BRCUzumwJkrur7B2VWBYOwv0=/0x0:1000x667/750x500/data/photo/2017/06/13/4078255452.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Yuk, Bangun Engagement Positif untuk Internal Branding Perusahaan</h5>
+                              <p class="card-text">Engagement antara manajemen dan pekerja merupakan kunci untuk mempertahankan produktivitas dan efisiensi tempat kerja dan operasional bisnis sehari-hari. Sayangnya, banyak manajemen yang tidak menyadari bahwa pekerja mereka merasa tidak terpuaskan, kelelahan, sampai burnout.</p>
+                              <a href="berita4.html" class="btn btn-primary">Baca Berita</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://asset.kompas.com/crops/0_TeATdCJHPCJ2gvqAjbHgTo9sg=/0x0:435x290/750x500/data/photo/2020/06/11/5ee17e763c5e3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Dear HR, Ini 4 Cara Bentuk Internal Branding Perusahaan</h5>
+                              <p class="card-text">Hubungan yang sehat dan erat tidak hanya harus dijaga antara konsumen, klien, atau kandidat berkualitas yang menjadi harapan dari sebuah perusahaan. Lebih dari itu, sebuah perusahaan juga harus menjaga engagement yang sehat dan erat dengan pekerjanya, dimulai dari level terbawah hingga yang paling atas.</p>
+                              <a href="berita5.html" class="btn btn-primary">Baca Berita</a>
+                            </div>
+                          </div>   
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://asset.kompas.com/crops/WNs61QYySPZDKrWIYujuwAeznks=/0x0:1000x667/750x500/data/photo/2020/05/29/5ed0554dc685d.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Bangun Internal Branding untuk Pekerja</h5>
+                              <p class="card-text">Sebagai HR, pasti seringkali mendengar istilah “employer branding eksternal” untuk meningkatkan awareness kandidat akan perusahaan. Selain untuk meningkatkan awareness kandidat, employer branding juga berguna untuk membangun reputasi perusahaan dan membuka kesempatan bagi perusahaan untuk merekrut talent-talent terbaiknya</p>
+                              <a href="berita6.html" class="btn btn-primary">Baca Berita</a>
+                            </div>
+                          </div>  
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+     <!-- footer -->
+    <footer class="bg-secondary text-white">
+        <div class="container">
+          <div class="row pt-3">
+              <div class="col">
+                  <p>Develop By Mahasiswa STT-NF @2021</p>
+              </div>
+          </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+    <script>
+        function login(){
+           
+          let user = document.getElementById("user");
+          let pass = document.getElementById("pass");
+  
+          console.log("user :" + user.value);
+          console.log("pass :" + pass.value);
+          if(user.value=="admin" && pass.value=="admin123"){
+              alert("anda login");
+              window.location = "admin.html";
+          }else{
+              alert("Username atau Password salah");
+          }
+        }
+    </script>
+  </body>
+</html>
